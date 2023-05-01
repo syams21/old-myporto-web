@@ -17,20 +17,9 @@ body, html{
 
 #header{
     padding-top: 20px;
-    padding-left: 40px;
+    padding-left: 0px;
     padding-right: 40px;
     background: #19191999;
-}
-
-.logo{
-    position: relative;
-    scale: 50%;
-    right: 40px;
-}
-
-.container{
-    width: 92%;
-    margin: 0 auto;
 }
 
 #header .container{
@@ -39,20 +28,22 @@ body, html{
     align-items: center;
 }
 
-#header .container img{
-    scale: 30%;
-    right: 165px;
+.container p
+{
+    padding-left: 96px;
+}
+
+.container a
+{
+    padding-left: 30px;
 }
 
 .main-nav ul{
-    padding: 0;
-    margin: 0;
     list-style: none;
 }
 
 .main-nav ul li{
     float: left;
-    margin-left: 45px;
 }
 
 .main-nav ul li a{
@@ -79,6 +70,7 @@ body, html{
 }
 
 .cols{
+    margin-top: 90px;
     width: 45%;
 }
 
@@ -178,7 +170,7 @@ body, html{
 
 .imgbox img{
     position: relative;
-    width: 160%;
+    width: 100%;
     left: -150px;
 
 }
